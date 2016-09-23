@@ -1,0 +1,12 @@
+{
+    "name": "orange/jciais",
+    "description": "resume",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Julien C",
+            "email": "julien.ciais@orange.com"
+        }
+    ],
+    "require": {}
+}
