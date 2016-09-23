@@ -1,0 +1,229 @@
+/*
+ * resume CSS
+ */
+
+body {
+	padding-top:70px;
+}
+
+body, h1, h2, h3, h4, h5 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.name {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 3em;
+	line-height: 1.5em;
+}
+
+.title {
+	margin-top: 0;
+	color: #FF6600;
+}
+
+.header-row, .date, .jobdetails {
+	color: #666;
+}
+
+.coordonnees {
+	display:block;
+	width:25px;
+	float:left;
+}
+
+.content-resume {
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;  
+}
+
+.responsibilities dt {
+	color:#333;
+	width:50px;
+}
+
+.project-title {
+	color: #ff6600;
+}
+
+.project-subtitle {
+	color: #ff6600;
+	font-size:0.9em;
+}
+
+.cattitle {
+	color: #C24319 !important;
+}
+
+.navbar-brand {
+	color: #ff5500 !important;
+}
+
+@media (max-width: 500px) {
+	.name {
+	  font-size: 2em;
+	}
+
+	.cattitle {
+	  font-size: 1.6em;
+	}
+}
+
+.panel-default > .panel-heading:hover {
+    background-color: #DDDDDD;
+}  
+
+.logo, .logo-lg {
+	padding-top:7px;
+	padding-left:38px;
+}
+ .logo-lg {
+	padding-left:55px;
+}
+
+.title-years {
+	padding-top:9px;
+}
+
+/*
+ * resolution > smartphone
+ */
+@media (min-width: 768px){
+	.studies-logo {
+		float:right;
+	}
+	.studies-date {
+		clear:both;
+		float:right;
+	}
+}
+
+/*
+ * print
+ */
+@media print {
+  body {
+	padding-top:0px!important;
+	width: 1050px; //@screen-tablet; 
+  }
+
+  .content-resume {
+	border-left:0 none;
+	border-right:0 none;
+	border-bottom:0 none;  
+  }
+
+  a[href]:after {
+    content: none !important;
+  }
+}
+
+.qra {
+	background-image:url(../images/contact_m.png);
+	width: 130px;
+	height: 130px;
+}
+
+.photoid {
+	background-image:url(../images/photoid.png);
+	width: 95px;
+	height: 107px;
+}
+
+.logo-ensaia {
+	background-image:url(../images/ensaia.jpg);
+	width: 115px;
+	height: 60px;
+}
+
+.logo-iup {
+	background-image:url(../images/aix.png);
+	width: 139px;
+	height: 50px;
+}
+
+.logo-boccard {
+	background-image:url(../images/boccard.png);
+	width: 143px;
+	height: 35px;
+}
+
+.logo-eras {
+	background-image:url(../images/eras.png);
+	width: 109px;
+	height: 25px;
+}
+
+.logo-sidel {
+	background-image:url(../images/sidel.png);
+	width: 140px;
+	height: 35px;
+}
+
+.logo-snc {
+	background-image:url(../images/snc.png);
+	width: 37px;
+	height: 34px;
+}
+
+.logo-acad {
+	background-image:url(../images/acad.png);
+	width: 91px;
+	height: 55px;
+}
+
+/*
+ * CSS sprite
+ */
+.sprite {
+	background-image:url(../images/sprites.png);
+}
+
+.sprite-areva {
+	background-position: 0px -62px;
+	width: 32px;
+	height: 32px;
+}
+ 
+.sprite-sopra {
+	background-position: 0px -230px;
+	width: 65px;
+	height: 32px;
+}
+ 
+.sprite-orange {
+	background-position: 0px -188px;
+	width: 32px;
+	height: 32px;
+}
+.sprite-st {
+	background-position: 0px -272px;
+	width: 52px;
+	height: 32px;
+}
+ 
+.sprite-ensmse {
+	background-position: 0px 0px;
+	width: 184px;
+	height: 52px;
+}
+
+.sprite-iusti {
+	background-position: 0px -104px;
+	width: 171px;
+	height: 32px;
+}
+
+.sprite-uam {
+	background-position: 0px -146px;
+	width: 31px;
+	height: 32px;
+}
+
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+
+.main-bloc .panel-default, .main-bloc .panel-heading {
+	background: none!important;
+	border: none!important;
+}

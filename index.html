@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+        Remove this if you use the .htaccess -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>Julien CIAIS - Resume</title>
+        <meta name="description" content="Julien CIAIS - Developer Java JEE" />
+        <meta name="author" content="Julien CIAIS" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, user-scalable=false;">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" media="all" href="lib/bootstrap-3.0.0/css/bootstrap-resume.min.css">
+        <!-- Font Awesome CSS -->
+        <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet"  media="all">
+		<!-- style resume -->
+        <link href="css/resume.min.css" rel="stylesheet" type="text/css"  media="all">
+
+    </head>
+
+    <body>
+	
+        <div class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Resume Menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Julien CIAIS</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="http://julien.ciais.pagesperso-orange.fr/pdf/JulienCIAIS-Resume.pdf" target="_blank"><i class="icon-download"></i>&nbsp; Download Resume PDF</a>
+                        </li>
+                        <li>
+                            <a href="http://julien.ciais.pagesperso-orange.fr/pdf/JulienCIAIS-OrangeExpert.pdf" target="_blank"><i class="icon-download"></i>&nbsp; Download OrangeExpert Form PDF</a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+		</div>
+
+        <div class="container content-resume">
+            
+    <!-- PRESENTATION -->
+            <div class="row">
+                <div class="col-sm-3 col-md-3 col-lg-3 hidden-xs visible-print visible-md visible-sm visible-lg">
+                    <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAAFYUlEQVR4nO2dO0srTxjGJ/EQFVkkNkmhYiWKfoIgRmIbQj6HhbVIWpvglxBsUgliLzaiFmJpIQrxllbs4mX/xcJy+I9nztx2s8/Z51eF7Mzsbh7ex3nnZiEMQ0GyTXHUD0D+DkUCgCIBQJEAoEgAUCQAKBIAFAkAigQARQKAIgFAkQCgSABQJAAoEgAUCQCKBABFAoAiAfDLpXKhUHCpLi+viBs0WnkhP0ZcXW7Q6JntainasYORBABFAsDJ7mIc3UlhJgor846OuTm+qR2MJAAoEgB+7C7GzihknzFyObtLRmVkfFmiDowkACgSAJ7tzg6dbFRRWMYxTc7aJgZGEgAUCYBM2J2OO+n093Q6h3aXRgsjCQCKBIBnu3NMDB0TXkVhHYxqpemEjCQAKBIAfuzO15i8zi2Sm3XVcbAU3lSGkQQARQKgkJF87a/YpbeKduRaTGaJPRQJgPTW3Tn2wRQ3NTIlo6kKoy6lXXdRB0YSABQJgKR6d0YzCzJG/TSj9XK+LNq7DytgJAFAkQDwPHYnB7ijF9nVclxtopPwyq/sawuGDCMJAIoEgOfenWNmZ9ffU9wiuZG6NGdvGUkAUCQA/NidkU1lZIurXXJt9PC+YCQBQJEA8Gx3KWztd0xCvc/DpjCfy0gCgCIBkPhCFKOOli/bVNxCUd3xp+BURa6hSAAkfkSAY//KcfDN6KwVnTJ2PswDoP59KBIASe2qsJts9TUP65i6Gr2OToOOMJIAoEgAOCWzjuNpOmUcJ0EUteymjEeyz4KRBABFAmAE590ZLdIzOvZEgdGkraO5cVdFHqFIACR1Ioqdp+lkvt4nf2V8LYzxBSMJAIoEQOJjd4oyMnan0inKpLD9PwUnZCQBQJEA8Dx25+hpOjhur3CcvNBp2TuMJAAoEgAjOM3Ybs+XooyisM4lHRT9xhQMkJEEAEUCIBOnGcvVHTNWuyOhdG46kmE9RhIAFAmApBaipHAUnlxd58EUOPpVcuOEjCQAKBIAmTjN2PvpIr4Ovkth65kOjCQAKBIA6Z1mLKNYo2J3d8V4miOjXZPMSAKAIgHgZ+wuzbVwikt2o3l2MyZ2he1gJAFAkQAYwa4KnVqyX+m4itGmDKN+mgKdNdIcu/v3oUgAZOLfasc4LjM22pSh0xU0mn51zM0VMJIAoEgAZMvuZIz6hHItO79yXOLCsbs8QpEAyNa6O7s9s74OZfJ+JrMvGEkAUCQAktoza4dOX87x0BWje+kUtru7EYwkACgSAJlYd0fUMJIAoEgAUCQAKBIAFMkY06TQPYnMqUivr6+bm5vj4+PLy8tnZ2dCiMfHx3q9Pjk5Wa/Xn5+fo2JBEOzt7ZXL5UqlcnBwIISYm5sTQpTL5YeHByFEr9erVCrT09Onp6c/tvy/8paEuaTdbu/s7AyHw+Pj44WFhTAMm81mp9MZDoe7u7utVisqJoTodrvD4fDk5GRmZib+Mm6nWq1eXV0NBoNqtfqnlt1/5JzmSUEQvLy8BEEQfzM1NTUYDIIgeHt7m52dfX9/F0IUCoXPz8+xsbHoc/RbxR+EEJeXl+fn59fX14eHh9GXcsu/l7cjp3b3/f1dLGq9e6TQj/R6va2trfn5+U6nY9GyPjkVqdFodLvdj4+Po6OjlZUVIcTGxkb0zf7+fqPRUNQtFotRnN3c3NRqtXa7fXd3J4T4+vr6seW4vD2OdgnK09PT+vp6qVRaWlq6uLgIw7Df79dqtVKptLa21u/3o2K//z7x52azWSqV7u/vb29vFxcXJyYmWq3W6urq9vb2jy3H5a2fNqd/k7DIqd1hQZEAoEgAUCQAKBIAFAkAigQARQLgP8ajJPx55ZQZAAAAAElFTkSuQmCC" />
+                    &nbsp;
+                </div>
+                <div class="col-sm-9 col-md-9 col-lg-9">
+                    <h1 class="name">Julien CIAIS</h1>
+                    <h3 class="title">Developer Java JEE</h3>
+                    <p class="header-row">
+                        <span class="coordonnees"><i class="icon-envelope"></i></span>
+						<span><a href="mailto:julien.ciais@orange.com">julien.ciais@orange.com</a></span>
+                    </p>
+                    <p class="header-row">
+                        <span class="coordonnees"><i class="icon-phone-sign"></i></span>
+						<span><a href="tel:0437445098">04 37 44 50 98</a></span>
+                    </p>
+                </div>
+            </div>
+            <hr/>
+            
+<!-- mise en page print pdf -->
+<div class="clearfix visible-print">&nbsp;</div>
+
+    <!-- SKILLSET -->
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <a class="accordion-toggle" data-toggle="collapse" href="#skillset">
+                    <h2 class="cattitle"><i class="icon-cogs"></i> Skillset 
+                            <div class="pull-right"><i class="icon-expand"></i></div>
+                    </h2>
+                    </a>
+                </div>
+            </div>
+            <div id="skillset" class="row collapse in">
+                <div class="col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-sm-11 col-md-10 col-lg-12 col-xs-11">
+                    <dl class="dl-horizontal jobdetails">
+                        <dt>
+                            Server
+                        </dt>
+                        <dd>
+                            JEE, Spring, Hibernate, iBatis, C# .Net, Zend PHP
+                        </dd>
+                        <dt>
+                            Client
+                        </dt>
+                        <dd>
+                            AngularJS, CanJS, jQuery, Flex
+                        </dd>
+                        <dt>
+                            Application Server
+                        </dt>
+                        <dd>
+                            Jonas, Jboss, Jetty
+                        </dd>
+                        <dt>
+                            Database
+                        </dt>
+                        <dd>
+                            MySQL, Oracle, PostgreSQL
+                        </dd>
+                        <dt>
+                            Revision Control
+                        </dt>
+                        <dd>
+                            SVN, Git
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <hr />
+
+<div class="visible-print">
+	<!-- mise en page print pdf -->
+	<div class="clearfix">&nbsp;</div>
+	<div class="clearfix">&nbsp;</div>
+</div>
+
+    <!-- WORK EXPERIENCE -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <a class="accordion-toggle" data-toggle="collapse" href="#workExperience">
+                    <h2 class="cattitle"><i class="icon-briefcase"></i> Work Experience 
+                            <div class="pull-right"><i class="icon-expand"></i></div>
+                    </h2>
+                    </a>
+                    
+                </div>
+            </div>
+			
+            <div id="workExperience" class="row collapse in">
+                
+            <div class="panel-group" id="accordion">
+                
+                
+            <!-- ORANGE -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title"><a class="accordion-toggle" data-toggle="collapse" href="#collapseOne">
+                        <div class="row" >
+                            <div class="col-sm-12 col-md-12">
+                                <div class="pull-left">
+									<div class="sprite sprite-orange logo"><font color="#ff5500">&nbsp;orange</font></div>
+                                </div>
+                                <div class="pull-right">
+                                    Aug. 2010 - Present
+                                </div>
+                            </div>
+                        </div> </a></h4>
+                    </div>
+
+                    <div id="collapseOne" class="panel-collapse collapse">
+                        <div class="panel-body">
+
+                            <div class="row">
+                                <div class="col-sm-2 col-md-2  col-lg-2 text-right">
+                                    <p class="lead project-title">
+                                        SISIF
+                                    </p>
+                                    <p class="lead project-subtitle">
+                                        OWF
+                                    </p>
+                                    <h5 class="date"> Sept. 2013 - Present </h5>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5">
+                                    <dl class="dl-horizontal jobdetails">
+                                        <dt>
+                                            Project
+                                        </dt>
+                                        <dd>
+                                            Billing application. Agile methodology.
+                                        </dd>
+                                        <dt>
+                                            Role
+                                        </dt>
+                                        <dd>
+                                            Technical leader
+                                        </dd>
+                                        <dt>
+                                            Technical
+                                        </dt>
+                                        <dd>
+                                            JEE, Spring, Hibernate, REST, AngularJS, jQuery, Bootstrap, MySQL, Git, Jenkins
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5 hidden-xs visible-print visible-md visible-sm visible-lg">
+                                    <ul >
+                                        <li>
+                                            Web application to manage billings and penalities
+                                        </li>
+                                        <li>
+                                            Develop the software architecture : JEE, REST, AngularJS
+                                        </li>
+                                        <li>
+                                            CSS design with LESS and Bootstrap
+                                        </li>
+                                        <li>
+											Continuous Integration : Jenkins/SONAR, JUnit
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr />
+
+                            <div class="row">
+                                <div class="col-sm-2 col-md-2  col-lg-2 text-right">
+                                    <p class="lead project-title">
+                                        LINA
+                                    </p>
+                                    <p class="lead project-subtitle">
+                                        CRM-E
+                                    </p>
+                                    <h5 class="date">  March 2012 - Sept. 2013 </h5>
+                                </div>
+                                
+                                <div class="col-sm-10 col-md-10 col-lg-5">
+                                    <dl class="dl-horizontal jobdetails">
+                                        <dt>
+                                            Project
+                                        </dt>
+                                        <dd>
+                                            Web portal and CRM light. Agile methodology.
+                                        </dd>
+                                        <dt>
+                                            Role
+                                        </dt>
+                                        <dd>
+                                            Technical leader
+                                        </dd>
+                                        <dt>
+                                            Technical
+                                        </dt>
+                                        <dd>
+                                            Zend PHP, N-tiers Architecture, IoC, Doctrine, CanJS, jQuery, ezWorkflow, MySQL, SVN, Jenkins
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5 hidden-xs visible-print visible-md visible-sm visible-lg">
+                                    <ul >
+                                        <li>
+                                            Web portal to aggregate the tools for over 40 partner's applications
+                                        </li>
+                                        <li>
+                                            Technical leader to develop the software architecture : 
+											<ul>
+												<li>Zend n-tiers, IoC with PHPDoc and cache</li> 
+												<li>MVC client with CanJS Controller/Service</li> 
+												<li>Javascript communication with partners</li>
+												<li>Workflow to modelize business process</li>
+												<li>CSS design</li>
+											</ul>
+                                        </li>
+                                        <li>
+                                            Oversee and support team (technical and agility)
+                                        </li>
+                                        <li>
+											Continuous Integration : Jenkins, PHPUnit
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr />
+
+                            <div class="row">
+                                <div class="col-sm-2 col-md-2  col-lg-2 text-right">
+                                    <p class="lead project-title">
+                                        Concerto
+                                    </p>
+                                    <p class="lead project-subtitle">
+                                        CRM-E
+                                    </p>
+                                    <h5 class="date">  Sept. 2011 - March 2012 </h5>
+                                </div>
+                                
+                                <div class="col-sm-10 col-md-10 col-lg-5">
+                                    <dl class="dl-horizontal jobdetails">
+                                        <dt>
+                                            Project
+                                        </dt>
+                                        <dd>
+                                            CRM entreprise. Agile methodology.
+                                        </dd>
+                                        <dt>
+                                            Role
+                                        </dt>
+                                        <dd>
+                                            Technical leader
+                                        </dd>
+                                        <dt>
+                                            Technical
+                                        </dt>
+                                        <dd>
+                                            JEE, Spring, Hibernate, Flex, MySQL, SVN, Hudson/SONAR
+                                        </dd>
+                                    </dl>
+                                </div>
+                                 <div class="col-sm-10 col-md-10 col-lg-5 hidden-xs visible-print visible-md visible-sm visible-lg">
+                                    <ul >
+                                        <li>
+											RIA application (Flex) for sale actors to build complex business offers
+										</li>
+                                        <li>
+                                            Develop software architecture : JEE / BlazeDS / Flex
+                                        </li>
+                                        <li>
+                                            Flex-Skin design
+                                        </li>
+                                        <li>
+											Continuous Integration : Hudson/SONAR, JUnit
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr />
+
+                            <div class="row">
+                                <div class="col-sm-2 col-md-2  col-lg-2 text-right">
+                                    <p class="lead project-title">
+                                       MRC
+                                    </p>
+                                    <p class="lead project-subtitle">
+                                        Ass Tech Home
+                                    </p>									
+                                    <h5 class="date">  Sept. 2010 - Sept. 2011 </h5>
+                                </div>
+                                
+                                <div class="col-sm-10 col-md-10 col-lg-5">
+                                    <dl class="dl-horizontal jobdetails">
+                                        <dt>
+                                            Project
+                                        </dt>
+                                        <dd>
+                                            P-ATH Calendar application. Agile methodology.
+                                        </dd>
+                                        <dt>
+                                            Role
+                                        </dt>
+                                        <dd>
+                                            Technical leader
+                                        </dd>
+                                        <dt>
+                                            Technical
+                                        </dt>
+                                        <dd>
+                                            JEE, Spring, Hibernate, Wicket, jQuery, MySQL, SVN, Hudson/SONAR
+                                        </dd>
+                                    </dl>
+                                </div>
+                                 <div class="col-sm-10 col-md-10 col-lg-5 hidden-xs visible-print visible-md visible-sm visible-lg">
+                                    <ul>
+                                        <li>
+                                            "P-ATH" application to manage appointments between customers and technical assitants (10 000 users)
+                                        </li>
+                                        <li>
+                                            Mix "Wicket framework" with jQuery components (jsCalendar)
+                                        </li>
+                                        <li>
+                                            Develop software architecture : JEE, Wicket, jQuery
+                                        </li>
+										<li>
+											CSS design
+										</li>
+                                        <li>
+											Continuous Integration : Hudson/SONAR, JUnit
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+<div class="visible-print">
+	<!-- mise en page print pdf -->
+	<div class="clearfix">&nbsp;</div>
+	<div class="clearfix">&nbsp;</div>
+	<div class="clearfix">&nbsp;</div>
+	<div class="clearfix">&nbsp;</div>
+</div>
+            <!-- EURIWARE -->
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title"><a class="accordion-toggle" data-toggle="collapse" href="#collapseTwo">
+                        <div class="row" >
+                            <div class="col-sm-12 col-md-12">
+                                <div class="pull-left">
+									<div class="sprite sprite-areva logo"><font color="#cc0300">Euriware</font></div>
+                                </div>
+                                <div class="pull-right">
+                                    Feb. 2007 - Aug. 2010
+                                </div>
+                            </div>
+                        </div> </a></h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+
+                            <div class="row">
+                                <div class="col-sm-2 col-md-2  col-lg-2 text-right">
+                                    <p class="lead project-title">
+                                       Hewis
+                                    </p>
+									<p class="lead project-subtitle">
+                                        Areva
+                                    </p>									
+                                    <h5 class="date">  July 2009 - Aug. 2010 </h5>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5">
+                                    <dl class="dl-horizontal jobdetails">
+                                        <dt>
+                                            Project
+                                        </dt>
+                                        <dd>
+                                            Build IT System for factories (GPAO)
+                                        </dd>
+                                        <dt>
+                                            Role
+                                        </dt>
+                                        <dd>
+                                            Technical leader and Quality supervisor
+                                        </dd>
+                                        <dt>
+                                            Technical
+                                        </dt>
+                                        <dd>
+                                            JEE, Spring, iBatis, WebService, JMS, Sonic ESB, Oracle, SVN, CruiseControl
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5 hidden-xs visible-print visible-md visible-sm visible-lg">
+                                    <ul>
+                                        <li>
+                                            Technical leader on communication interface (WS, JMS, ESB)
+                                        </li>
+                                        <li>
+                                            Quality supervisor : develop specific tools to detect impacts and dependencies into the 900 screens, between specifications and code
+                                        </li>
+                                        <li>
+                                            Team support (30 developers in France and 30 in Russia)
+                                        </li>
+                                        <li>
+											Continuous Integration : CruiseControl, JUnit
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr />
+
+                            <div class="row">
+                                <div class="col-sm-2 col-md-2  col-lg-2 text-right">
+                                    <p class="lead project-title">
+                                       ATIH
+                                    </p>
+									<p class="lead project-subtitle">
+                                        INSERM
+                                    </p>									
+                                    <h5 class="date"> Nov. 2008 - July 2009</h5>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5">
+                                    <dl class="dl-horizontal jobdetails">
+                                        <dt>
+                                            Project
+                                        </dt>
+                                        <dd>
+                                            Management of patients in hospitals
+                                        </dd>
+                                        <dt>
+                                            Role
+                                        </dt>
+                                        <dd>
+                                            Technical leader
+                                        </dd>
+                                        <dt>
+                                            Technical
+                                        </dt>
+                                        <dd>
+                                            C# .Net 2.0, PL/SQL, PostgreSQL, VSS
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5 hidden-xs visible-print visible-md visible-sm visible-lg">
+                                    <ul>
+                                        <li>
+                                            Technical leader to develop software architecture and screens
+                                        </li>
+                                        <li>
+                                            Development owner framework to generate HMI from XML
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr />
+
+                            <div class="row">
+                                <div class="col-sm-2 col-md-2  col-lg-2 text-right">
+                                    <p class="lead project-title">
+                                       Apex
+                                    </p>
+									<p class="lead project-subtitle">
+                                        Areva
+                                    </p>									
+                                    <h5 class="date"> June 2008 - Oct. 2008</h5>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5">
+                                    <dl class="dl-horizontal jobdetails">
+                                        <dt>
+                                            Project
+                                        </dt>
+                                        <dd>
+                                            Supervision software for detecting radioactivity
+                                        </dd>
+                                        <dt>
+                                            Role
+                                        </dt>
+                                        <dd>
+                                            Design and development 
+                                        </dd>
+                                        <dt>
+                                            Technical
+                                        </dt>
+                                        <dd>
+                                            C# .Net 3.5, WCF, iBatis, SQL Server, VSS
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5 hidden-xs visible-print visible-md visible-sm visible-lg">
+                                    <ul >
+                                        <li>
+                                            Develop components of architecture : validation framework, communication with WCF
+                                        </li>
+                                        <li>
+                                            Support and design HMI
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr/>
+
+                            <div class="row">
+                                <div class="col-sm-2 col-md-2  col-lg-2 text-right">
+                                    <p class="lead project-title">
+                                       VIO/FCI
+                                    </p>
+									<p class="lead project-subtitle">
+                                        Orange
+                                    </p>									
+                                    <h5 class="date"> Fev. 2008 - May 2008</h5>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5">
+                                    <dl class="dl-horizontal jobdetails">
+                                        <dt>
+                                            Project
+                                        </dt>
+                                        <dd>
+                                            Web application to process ISP orders 
+                                        </dd>
+                                        <dt>
+                                            Role
+                                        </dt>
+                                        <dd>
+                                            Design and development 
+                                        </dd>
+                                        <dt>
+                                            Technical
+                                        </dt>
+                                        <dd>
+                                            Java EE 5, Struts 1.2, JSP, XML/XSLT, Spring, Hibernate, MySQL, CVS
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5 hidden-xs visible-print visible-md visible-sm visible-lg">
+                                    <ul >
+                                        <li>
+                                            Development of new components
+                                        </li>
+                                        <li>
+                                            Test plan
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr />
+
+                            <div class="row">
+                                <div class="col-sm-2 col-md-2  col-lg-2 text-right">
+                                    <p class="lead project-title">
+                                       ITV
+                                    </p>
+									<p class="lead project-subtitle">
+                                        Plastic Omnium - 
+                                    </p>									
+                                    <h5 class="date"> Jan. 2008</h5>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5">
+                                    <dl class="dl-horizontal jobdetails">
+                                        <dt>
+                                            Project
+                                        </dt>
+                                        <dd>
+                                            Client/Server application to validate the plastic molds
+                                        </dd>
+                                        <dt>
+                                            Role
+                                        </dt>
+                                        <dd>
+                                            Design and development 
+                                        </dd>
+                                        <dt>
+                                            Technical
+                                        </dt>
+                                        <dd>
+                                            Java 5, SwiX (Swing XML), Hibernate, POI, Oracle, SVN
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5 hidden-xs visible-print visible-md visible-sm visible-lg">
+                                    <ul >
+                                        <li>
+                                             Write technical documents
+                                        </li>
+                                        <li>
+                                             Develop new components
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr />
+
+                            <div class="row">
+                                <div class="col-sm-2 col-md-2  col-lg-2 text-right">
+                                    <p class="lead project-title">
+                                        P2P PBX
+                                    </p>
+									<p class="lead project-subtitle">
+                                        Orange (3mois.com) 
+                                    </p>									
+                                    <h5 class="date"> April 2007 - Dec. 2007</h5>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5">
+                                    <dl class="dl-horizontal jobdetails">
+                                        <dt>
+                                            Project
+                                        </dt>
+                                        <dd>
+                                            Back office to manage softphone VoIP
+                                        </dd>
+                                        <dt>
+                                            Role
+                                        </dt>
+                                        <dd>
+                                            Design and development 
+                                        </dd>
+                                        <dt>
+                                            Technical
+                                        </dt>
+                                        <dd>
+                                            Jave EE, Struts 1.2.9, JSP/JSTL, Prototype, Spring, Hibernate, MySQL, CVS
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5 hidden-xs visible-print visible-md visible-sm visible-lg">
+                                    <ul >
+                                        <li>
+                                            Write technical document, MPD/MCD 
+                                        </li>
+                                        <li>
+                                            Support and technical choices
+                                        </li>
+                                        <li>
+                                            Develop architecture components (JEE, Ajax Prototype) and screens
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr />
+
+                            <div class="row">
+                                <div class="col-sm-2 col-md-2  col-lg-2 text-right">
+                                    <p class="lead project-title">
+                                       XML to PDF
+                                    </p>
+									<p class="lead project-subtitle">
+                                        Areva NP 
+                                    </p>									
+                                    <h5 class="date"> Feb. 2007 - Mar. 2007</h5>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5">
+                                    <dl class="dl-horizontal jobdetails">
+                                        <dt>
+                                            Project
+                                        </dt>
+                                        <dd>
+                                            Generation PDF documents from XML (batch/Documentum)
+                                        </dd>
+                                        <dt>
+                                            Role
+                                        </dt>
+                                        <dd>
+                                            Developer
+                                        </dd>
+                                        <dt>
+                                            Technical
+                                        </dt>
+                                        <dd>
+                                            Java, XML/XSLT, Api renderX, Swing
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5 hidden-xs visible-print visible-md visible-sm visible-lg">
+                                    <ul >
+                                        <li>
+                                            Develop a tool to build PDF from XML (XSLT transformation) 
+                                        </li>
+                                        <li>
+                                            Supervision tool with log4j viewer
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+							</div>
+                    </div>
+                </div>
+
+
+<div class="visible-print">
+	<!-- mise en page print pdf -->
+	<div class="clearfix">&nbsp;</div>
+	<div class="clearfix">&nbsp;</div>
+	<div class="clearfix">&nbsp;</div>
+	<div class="clearfix">&nbsp;</div>
+	<div class="clearfix">&nbsp;</div>
+	<div class="clearfix">&nbsp;</div>
+	<div class="clearfix">&nbsp;</div>
+	<div class="clearfix">&nbsp;</div>
+</div>
+            <!-- SOPRA -->
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title"><a class="accordion-toggle" data-toggle="collapse" href="#collapseThree">
+                        <div class="row" >
+                            <div class="col-sm-12 col-sm-12 ">
+                                <div class="pull-left">
+									<div class="sprite sprite-sopra"></div>
+                                </div>
+                                <div class="pull-right">
+                                    May 2002 - Feb. 2007
+                                </div>
+                            </div>
+                        </div> </a></h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            
+                            <div class="row">
+                                <div class="col-sm-2 col-md-2  col-lg-2 text-right">
+                                    <p class="lead project-title">
+										Hospital Manager
+                                    </p>
+									<p class="lead project-subtitle">
+                                        R2I 
+                                    </p>									
+                                    <h5 class="date">  Oct. 2006 - Feb. 2007 </h5>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5">
+                                    <dl class="dl-horizontal jobdetails">
+                                        <dt>
+                                            Project
+                                        </dt>
+                                        <dd>
+                                            Web application to manage an hospital
+                                        </dd>
+                                        <dt>
+                                            Role
+                                        </dt>
+                                        <dd>
+                                            Design and development
+                                        </dd>
+                                        <dt>
+                                            Technical
+                                        </dt>
+                                        <dd>
+                                            J2EE, Struts, Fwk Sopra, Oracle
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5 hidden-xs visible-print visible-md visible-sm visible-lg">
+                                    <ul>
+                                        <li>
+                                            Develop new framework components and manage printing with applet
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr />
+
+                            <div class="row">
+                                <div class="col-sm-2 col-md-2  col-lg-2 text-right">
+                                    <p class="lead project-title">
+                                       Tunnel Fourvi&egrave;re 
+                                    </p>
+									<p class="lead project-subtitle">
+                                        Vinci GTIE 
+                                    </p>									
+                                    <h5 class="date">  April 2006 - Sept. 2006 </h5>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5">
+                                    <dl class="dl-horizontal jobdetails">
+                                        <dt>
+                                            Project
+                                        </dt>
+                                        <dd>
+                                            Supervision and incident reporting (MCI) to manage the tunnel of Fourviere
+                                        </dd>
+                                        <dt>
+                                            Role
+                                        </dt>
+                                        <dd>
+                                            Design and development
+                                        </dd>
+                                        <dt>
+                                            Technical
+                                        </dt>
+                                        <dd>
+                                            Java JEE 5, SWT, Hibernate, MSMQ, SQL Server, PowerDesigner, CSV
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5 hidden-xs visible-print visible-md visible-sm visible-lg">
+                                    <ul>
+                                        <li>
+                                            Write technical documents, MCD/MPD
+                                        </li>
+                                        <li>
+                                            Develop a client/server application to supervise and manage the incidents into the tunnel
+											<ul>
+												<li>determine action plan</li>
+												<li>generate documents</li>
+												<li>communication with road equipments</li>
+											</ul>
+                                        </li>
+                                        <li>
+                                            Develop a specific rules engine
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr />
+
+                            <div class="row">
+                                <div class="col-sm-2 col-md-2  col-lg-2 text-right">
+                                    <p class="lead project-title">
+                                       MYRABEL
+                                    </p>
+									<p class="lead project-subtitle">
+                                        Vinci GTIE 
+                                    </p>									
+                                    <h5 class="date">  Sept. 2004 - March 2006 </h5>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5">
+                                    <dl class="dl-horizontal jobdetails">
+                                        <dt>
+                                            Project
+                                        </dt>
+                                        <dd>
+                                            System Management Road Traffic (Metz-Nancy)
+                                        </dd>
+                                        <dt>
+                                            Role
+                                        </dt>
+                                        <dd>
+                                            Design and development
+                                        </dd>
+                                        <dt>
+                                            Technical
+                                        </dt>
+                                        <dd>
+                                            J2EE, SWT, EJB, JMS, Struts, JBoss, Oracle, PowerDesigner, Mantis, CVS
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5 hidden-xs visible-print visible-md visible-sm visible-lg">
+                                    <ul>
+                                        <li>
+                                            Write technical document (system to help decision - rules engine)
+                                        </li>
+                                        <li>
+                                            Develop a client/server application 
+                                            <ul>
+                                                <li>
+                                                    supervise and manage the incidents
+                                                </li>
+                                                <li>
+                                                    rules engine
+                                                </li>
+                                                <li>
+                                                    connection/communication with road equipments
+                                                </li>
+                                                <li>
+                                                    determine traffic jam
+                                                </li>
+                                                <li>
+                                                    process and transfert informations
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            Develop a web application (intranet) to supervise the servers of communication (between road equipments and system)
+                                        </li>
+                                        <li>
+                                            Test plan and validation
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr />
+
+                            <div class="row">
+                                <div class="col-sm-2 col-md-2  col-lg-2 text-right">
+                                    <p class="lead project-title">
+                                       Hospital 
+                                    </p>
+									<p class="lead project-subtitle">
+                                        GIP C.PAGE
+                                    </p>									
+                                    <h5 class="date">  July 2004 - Aug. 2004 </h5>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5">
+                                    <dl class="dl-horizontal jobdetails">
+                                        <dt>
+                                            Project
+                                        </dt>
+                                        <dd>
+                                            Web application to business
+                                        </dd>
+                                        <dt>
+                                            Role
+                                        </dt>
+                                        <dd>
+                                            Design and development
+                                        </dd>
+                                        <dt>
+                                            Technical
+                                        </dt>
+                                        <dd>
+                                            J2EE, Struts, Fwk Sopra, Oracle, CVS
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5 hidden-xs visible-print visible-md visible-sm visible-lg">
+                                    <ul>
+                                        <li>
+                                            Design and develop screens to manage orders
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr />
+
+                            <div class="row">
+                                <div class="col-sm-2 col-md-2  col-lg-2 text-right">
+                                    <p class="lead project-title">
+                                       MALOYA
+                                    </p>
+									<p class="lead project-subtitle">
+                                        Vinci GTIE
+                                    </p>									
+                                    <h5 class="date">  Nov. 2003 - May 2004 </h5>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5">
+                                    <dl class="dl-horizontal jobdetails">
+                                        <dt>
+                                            Project
+                                        </dt>
+                                        <dd>
+                                            System Management Road Traffic (Reunion Island)
+                                        </dd>
+                                        <dt>
+                                            Role
+                                        </dt>
+                                        <dd>
+                                            Design and development
+                                        </dd>
+                                        <dt>
+                                            Technical
+                                        </dt>
+                                        <dd>
+                                            J2EE, SWT, JMS, Oracle, CVS
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5 hidden-xs visible-print visible-md visible-sm visible-lg">
+                                    <ul>
+                                        <li>
+                                            Develop a client/server application to supervise and manage incidents
+                                            <ul>
+                                                <li>manage events</li>
+                                                <li>generate documents</li>
+                                                <li>communication with road equipment</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            Develop rules engine
+                                            <ul>
+                                                <li>configuration rules with designer (HMI)</li>
+                                                <li>build actions plan from events</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr />
+
+                            <div class="row">
+                                <div class="col-sm-2 col-md-2  col-lg-2 text-right">
+                                    <p class="lead project-title">
+                                       Repository View
+                                    </p>
+									<p class="lead project-subtitle">
+                                        CASINO
+                                    </p>									
+                                    <h5 class="date">  Sept. 2002 - Oct. 2003 </h5>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5">
+                                    <dl class="dl-horizontal jobdetails">
+                                        <dt>
+                                            Project
+                                        </dt>
+                                        <dd>
+                                            Web application to manage the product and customer repositories
+                                        </dd>
+                                        <dt>
+                                            Role
+                                        </dt>
+                                        <dd>
+                                            Design and development
+                                        </dd>
+                                        <dt>
+                                            Technical
+                                        </dt>
+                                        <dd>
+                                            J2EE, JSP, Fwk Casino, COBOL, DB2, Tomcat
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5 hidden-xs visible-print visible-md visible-sm visible-lg">
+                                    <ul>
+                                        <li>
+                                            Write technical documents
+                                        </li>
+                                        <li>
+                                            Develop screens and business service
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr />
+
+							<div class="clearfix visible-print">&nbsp;</div>
+							<div class="clearfix visible-print">&nbsp;</div>
+							
+                            <div class="row">
+                                <div class="col-sm-2 col-md-2  col-lg-2 text-right">
+                                    <p class="lead project-title">
+                                       Alice
+                                    </p>
+									<p class="lead project-subtitle">
+                                        CASINO
+                                    </p>									
+                                    <h5 class="date">  May 2002 - Aug. 2002 </h5>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5">
+                                    <dl class="dl-horizontal jobdetails">
+                                        <dt>
+                                            Project
+                                        </dt>
+                                        <dd>
+                                            Web application to manage the promotions
+                                        </dd>
+                                        <dt>
+                                            Role
+                                        </dt>
+                                        <dd>
+                                            Design and development
+                                        </dd>
+                                        <dt>
+                                            Technical
+                                        </dt>
+                                        <dd>
+                                            J2EE, JSP, Fwk Casino, COBOL, DB2, Tomcat
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5 hidden-xs visible-print visible-md visible-sm visible-lg">
+                                    <ul>
+                                        <li>
+                                            Develop screens and business service
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+<div class="visible-print">
+	<!-- mise en page print pdf -->
+	<div class="clearfix">&nbsp;</div>
+	<div class="clearfix">&nbsp;</div>
+	<div class="clearfix">&nbsp;</div>
+	<div class="clearfix">&nbsp;</div>
+</div>
+            <!-- STMicro -->
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title"><a class="accordion-toggle" data-toggle="collapse" href="#collapseFour">
+                        <div class="row" >
+                            <div class="col-sm-12 col-sm-12 ">
+                                <div class="pull-left">
+									<div class="sprite sprite-st logo-lg">Microelectronics</div>
+									</div>
+                                <div class="pull-right">
+                                    June 2001 - Dec. 2001
+                                </div>
+                            </div>
+                        </div> </a></h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-sm-2 col-md-2  col-lg-2 text-right">
+                                    <p class="lead project-title">
+                                       Final Year Project
+                                    </p>
+                                    <h5 class="date">  June 2001 - Dec. 2001 </h5>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5">
+                                    <dl class="dl-horizontal jobdetails">
+                                        <dt>
+                                            Project
+                                        </dt>
+                                        <dd>
+                                            Web application to analyze data files
+                                        </dd>
+                                        <dt>
+                                            Role
+                                        </dt>
+                                        <dd>
+                                            Developer
+                                        </dd>
+                                        <dt>
+                                            Technical
+                                        </dt>
+                                        <dd>
+                                            Java, Servlet, JSP, C, Perl, SQL, Ingres
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="col-sm-10 col-md-10 col-lg-5 hidden-xs visible-print visible-md visible-sm visible-lg">
+                                    <ul>
+                                        <li>
+                                            Develop a tool to analyze files and inject the data into database
+                                        </li>
+                                        <li>
+                                            Develop a web application (intranet) to generate reports and graphs
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+            
+			</div> 
+                
+			<hr/>
+
+
+    <!-- STUDIES -->
+    
+            <div class="row">
+                <div class="col-sm-12">
+                    <a class="accordion-toggle" data-toggle="collapse" href="#studies">
+                        <h2 class="cattitle"><i class="icon-bookmark-empty"></i> Studies
+                                <div class="pull-right"><i class="icon-expand"></i></div>
+                        </h2>
+                    </a>
+                </div>
+            </div>
+			
+            <div id="studies" class="row collapse">
+                <div class="row">
+					<div class="col-sm-4 col-md-3 col-lg-3">
+						<div class="studies-logo sprite sprite-ensmse"></div>
+						<div class="studies-date">
+							<p class="lead date">
+								2000 - 2001
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-8 col-md-9 col-lg-9">
+						<h4>
+							Engineering Diploma & Master specializing in Software IT 
+						</h4>
+					</div>
+                </div>
+                <hr/>
+
+                <div class="row">
+					<div class="col-sm-4 col-md-3 col-lg-3">
+						<div class="studies-logo sprite sprite-iusti"></div>
+						<div class="studies-date">
+							<p class="lead date">
+								1997 - 2000
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-8 col-md-9 col-lg-9">
+						<h4>
+							Engineering Diploma specializing in Energetic System and Thermic Transfer
+						</h4>
+					</div>
+                </div>
+                <hr/>
+				
+                <div class="row">
+					<div class="col-sm-4 col-md-3 col-lg-3">
+						<div class="studies-logo sprite sprite-uam"></div>
+						<div class="studies-date">
+							<p class="lead date">
+								1996 - 1997
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-8 col-md-9 col-lg-9">
+						<h4>
+							DEUG SSM - University Aix-Marseille
+						</h4>
+					</div>
+                </div>
+                
+            </div>
+            <hr />
+
+
+    <!-- LANGUAGE -->
+            <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                    <a class="accordion-toggle" data-toggle="collapse" href="#language">
+                    <h2 class="cattitle"><i class="icon-comments-alt"></i> Language
+                            <div class="pull-right"><i class="icon-expand"></i></div>
+                    </h2>
+                    </a>
+                    
+                </div>
+            </div>
+            <hr />
+            <div id="language" class="row collapse">
+                <div class="col-xs-3 col-sm-3 text-right">
+                    <p class="lead">
+                        English
+                    </p>
+                </div>
+                <div class="col-xs-9 col-sm-9">
+                    <p class="lead">
+                        Average
+                    </p>
+                    <dl class="dl-horizontal">
+                        <dt>
+                            Speaking Level
+                        </dt>
+                        <dd>
+                            Low
+                        </dd>
+                        <dt>
+                            Reading Level
+                        </dt>
+                        <dd>
+                            Average
+                        </dd>
+                        <dt>
+                            Writing Level
+                        </dt>
+                        <dd>
+                            Average
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+
+
+        </div> <!-- end main container-->
+
+		
+        <!-- jQuery -->
+        <script src="lib/jquery/jquery-1.10.2.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="lib/bootstrap-3.0.0/js/bootstrap.min.js"></script>
+
+		<!--[if lt IE 9]>
+			<script src="lib/html5/html5shiv.js"></script>
+			<script src="lib/respond/respond.min.js"></script>
+		<![endif]-->
+		
+    </body>
+</html>
