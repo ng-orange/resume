@@ -22,6 +22,10 @@ h5 {
     color: #f60
 }
 
+.navbar-ex1-collapse {
+    background-color: #222;
+}
+
 .header-row,
 .date,
 .jobdetails {
